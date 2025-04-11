@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to right, #dfdfdf, #d8f4f5);
+}
+img{
+    width: 20%;
+    height: 30%;
+}
+a{
+    text-decoration: none;
+}
+.producto, .lista-productos{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

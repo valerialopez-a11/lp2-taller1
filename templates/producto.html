@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Producto: {{ producto.nombre }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  </head>
+  <body>
+    <div class="producto"><img
+      src="{{ url_for('static', filename='') }}{{ producto.nombre }}.png"
+      alt="{{ producto.nombre }}"
+    />
+    <h1>{{ producto.nombre }}</h1>
+    <h3>Precio: $ {{ producto.precio }}</h3>
+    <br />
+    <button type="button"><a href="{{ url_for('index') }}">Regresar</a></button></div>
+  </body>
+</html>

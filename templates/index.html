@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Tienda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}" />
+  </head>
+  <body>
+    <div class="lista-productos">
+      <h1>Bienvenido a la tienda</h1>
+    </div>
+    <div class="lista-productos">
+      <h2>Productos</h2>
+    </div>
+    <div class="lista-productos">
+      <p>Selecciona un producto para ver más detalles</p>
+    </div>
+    <div class="lista-productos">
+      <ol>
+        {% for producto in productos %}
+        <li>
+          <a href="/producto/{{ producto.nombre }}">{{ producto.nombre }}</a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </body>
+</html>
