@@ -7,8 +7,7 @@
 
 ## Autores
 
-- [@estudiante1](https://www.github.com/estudiante1)
-- [@estudiante2](https://www.github.com/estudiante2)
+- [@Valeria](https://www.github.com/valerialopez-a11)
 
 ## Descripción del Proyecto
 
